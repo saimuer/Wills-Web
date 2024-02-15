@@ -100,16 +100,107 @@ button {
     background-color: lightblue;
 }
 
-@media only screen and(max-width: 400px){
-    #header {
-    width: 90%;
-    height: 90%;
-}  
+@media screen and (min-width: 982px){
+    @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    mix-blend-mode: multiply;
+    font-family: 'Protest Riot';
 }
 
-@media only screen and (max-width: 400px){
-    html {
-        width: 90%;
-        height: 90%;
-    }
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f6f6f6;
+    height: 100px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    background-image: url(photo-1595452588429-b52ca8701283.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px;
+    margin-right: 50px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    transition: .3s;
+}
+
+a:hover {
+    color: tomato;
+}
+
+a:active {
+    color: lightcoral;
+}
+
+.contacts i {
+    font-size: 2rem;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+i:active {
+    color: tomato;
+}
+
+img {
+    width: 16%;
+    cursor: pointer;
+    max-height: 400px;
+    max-width: 200px;
+    margin-right: 650px;
+}
+
+ul a {
+    color: black;
+    margin-right: 40px;
+}
+
+ul li a {
+    color: black;
+}
+
+a {
+    margin-right: 0;
+}
+
+.book-me p{
+    font-size: 3rem;
+    margin-top: 150px;
+    padding-left: 140px;
+    height: 10px;
+    color: black;
+}
+
+.book-me button {
+    height: 60px;
+    width: 10%;
+    margin-top: 300px;
+    margin-left: 142px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+button {
+    background-color: lightblue;
+}
+
 }
