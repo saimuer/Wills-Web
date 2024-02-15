@@ -99,3 +99,10 @@ a {
 button {
     background-color: lightblue;
 }
+
+@media only screen and(max-width: 400px){
+    #header {
+    width: 90%;
+    height: 90%;
+}  
+}
